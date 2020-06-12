@@ -1,6 +1,6 @@
 # POSH RTL Bridges reference design
-Reference designs for mixed accuracy co-simulation using AXI, ACE, CHI and
-CXS hardware bridges.
+Reference designs for mixed accuracy co-simulation using AXI, ACE, CHI, CXS
+and PCIe hardware bridges.
 
 ## Before building
 
@@ -38,4 +38,12 @@ $ make
 ```
 $ cd ./cxs
 $ make
+
+```
+
+## For building the PCIe bitstream
+
+```
+$ cd ./pcie
+$ make pcie_ep
 ```
